@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arafat Hossain",
+    "picture": "https://i.ibb.co.com/gMxmLfhQ/arfat.jpg",
+    "email": "arafat.hossain@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "We studied Computer Science together. Used to build small projects and hang out at cafés.",
+    "goal": 14,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.ibb.co.com/v6zmSZd5/nusrat.jpg",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["work", "design"],
+    "bio": "Worked together on multiple UI/UX projects. Great sense of design and creativity.",
+    "goal": 12,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 3,
+    "name": "Sabbir Rahman",
+    "picture": "https://i.ibb.co.com/TDggCLN9/sabbir.jpg",
+    "email": "sabbir.rahman@yahoo.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "Gym partner for the last 2 years. Keeps me motivated and disciplined.",
+    "goal": 14,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 4,
+    "name": "Tania Akter",
+    "picture": "https://i.ibb.co.com/GQJ1Z8J8/tania.jpg",
+    "email": "tania.akter@hotmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["school", "childhood"],
+    "bio": "Childhood friend from school days. We used to participate in cultural programs together.",
+    "goal": 15,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 5,
+    "name": "Rakib Hasan",
+    "picture": "https://i.ibb.co.com/v4nsfh0L/rakib.jpg",
+    "email": "rakib.hasan@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["freelance", "developer"],
+    "bio": "Met through freelancing. Often discuss web development trends and client work.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Mim Chowdhury",
+    "picture": "https://i.ibb.co.com/Jjq6RzQy/mim.jpg",
+    "email": "mim.chowdhury@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["family friend"],
+    "bio": "Family friend. Our families often visit each other during holidays and events.",
+    "goal": 10,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Farhan Ahmed",
+    "picture": "https://i.ibb.co.com/wrF4krZX/farhan.jpg",
+    "email": "farhan.ahmed@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["travel", "adventure"],
+    "bio": "Travel buddy. We explored Cox’s Bazar and Bandarban together last year.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 8,
+    "name": "Shila Roy",
+    "picture": "https://i.ibb.co.com/G33hkp4d/shila.jpg",
+    "email": "shila.roy@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["book club", "reading"],
+    "bio": "Met at a local book club. We exchange books and discuss novels regularly.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  }
+]

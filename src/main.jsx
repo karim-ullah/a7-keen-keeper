@@ -7,6 +7,7 @@ import MainLayout from './mainlayout/MainLayout.jsx'
 import Timeline from './pages/Home/timeline/Timeline.jsx'
 import Stats from './pages/Home/Stats/Stats.jsx'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -21,6 +22,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    
+      <RouterProvider router={router}></RouterProvider>
+    
   </StrictMode>,
 )
