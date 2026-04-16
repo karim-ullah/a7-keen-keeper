@@ -33,9 +33,9 @@ const FriendDetails = () => {
   
 
   return (
-    <div className="w-[70%] mx-auto flex justify-between gap-6 py-20">
+    <div className="w-full lg:w-[70%] mx-auto px-2 lg:px-0 flex flex-col lg:flex-row justify-between gap-6 py-20">
       {/* left side */}
-      <div className="w-[35%] h-full">
+      <div className="w-full lg:w-[35%] h-full">
         <div className="bg-base-100 shadow-sm rounded-lg p-4 text-center space-y-3">
           <img
             className="w-22 h-22 rounded-full mx-auto"
@@ -79,21 +79,21 @@ const FriendDetails = () => {
       </div>
 
       {/* Right Side */}
-      <div className="w-[65%] space-y-6 h-full">
+      <div className="w-full lg:w-[65%] space-y-6 h-full">
         {/* first item */}
         <div className="flex justify-between items-center">
           <div className="bg-base-100 shadow-sm p-6 rounded-lg text-center">
-            <h2 className="font-semibold text-3xl text-[#244d3f]">
+            <h2 className="font-semibold text-2xl lg:text-3xl text-[#244d3f]">
               {days_since_contact}
             </h2>
             <p className="text-sm text-[#64748B]">Days since contact</p>
           </div>
           <div className="bg-base-100 shadow-sm p-6 rounded-lg text-center">
-            <h2 className="font-semibold text-3xl text-[#244d3f]">{goal}</h2>
+            <h2 className="font-semibold text-2xl lg:text-3xl text-[#244d3f]">{goal}</h2>
             <p className="text-sm text-[#64748B]">Goal (Days)</p>
           </div>
           <div className="bg-base-100 shadow-sm p-6 rounded-lg text-center">
-            <h2 className="font-semibold text-3xl text-[#244d3f]">
+            <h2 className="font-semibold text-2xl lg:text-3xl text-[#244d3f]">
               {next_due_date}
             </h2>
             <p className="text-sm text-[#64748B]">Next Due</p>

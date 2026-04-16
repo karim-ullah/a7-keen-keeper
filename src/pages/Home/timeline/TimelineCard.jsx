@@ -4,7 +4,7 @@ import { IoIosCall } from "react-icons/io";
 import { LuMessageSquareMore } from "react-icons/lu";
 
 const TimelineCard = ({ data }) => {
-  const today = new Date();
+ 
   return (
     <div className="bg-base-100 p-4 rounded-lg shadow-sm flex gap-3 items-center">
       <div className="font-medium text-4xl">

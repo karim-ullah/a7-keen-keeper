@@ -1,9 +1,9 @@
 import React, { use } from 'react';
 import FriendCard from '../../pages/Home/Home UI/FriendCard';
 
-const friendsPromise = fetch('Friends.json').then(res => res.json())
 
-const AllFriends = () => {
+
+const AllFriends = ({friendsPromise}) => {
     const friends = use(friendsPromise)
     // console.log(friends);
     

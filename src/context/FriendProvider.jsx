@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react';
+import { toast } from 'react-toastify';
 
 
 export const FriendContext = createContext()
@@ -17,6 +18,7 @@ const FriendProvider = ({children}) => {
 
       const updated = [...storeInfo, ...callInfo]
       setStoreInfo(updated)
+      toast.success(`Call with ${name} successful`)
       
       
     }else if(text === 'text'){
@@ -26,6 +28,7 @@ const FriendProvider = ({children}) => {
       }]
       const updated = [...storeInfo, ...textInfo]
       setStoreInfo(updated)
+      toast.success(`Text with ${name} successful`)
     }else{
       const videoInfo = [{
         info: 'Video',
@@ -33,6 +36,7 @@ const FriendProvider = ({children}) => {
       }]
       const updated = [...storeInfo, ...videoInfo]
       setStoreInfo(updated)
+      toast.success(`Video with ${name} successful`)
       
     }
     
