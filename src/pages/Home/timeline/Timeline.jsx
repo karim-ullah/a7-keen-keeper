@@ -41,7 +41,7 @@ const Timeline = () => {
     
     
     return (
-        <div className='container mx-auto px-2 lg:px-0 py-10 h-screen'>
+        <div className='w-11/12 mx-auto py-10 h-screen'>
 
             <div>
                 <h1 className='font-bold text-5xl'>Timeline</h1>

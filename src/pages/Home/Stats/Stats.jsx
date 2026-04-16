@@ -18,7 +18,7 @@ const Stats = () => {
   ];
 
   return (
-    <div className="w-full lg:w-[60%] mx-auto px-2 lg:px-0 h-screen">
+    <div className="w-11/12 lg:w-[60%] mx-auto lg:px-0 h-screen">
       <div className="py-10">
         <h2 className="font-bold text-4xl text-[#244d3f]">
           Friendship Analytics

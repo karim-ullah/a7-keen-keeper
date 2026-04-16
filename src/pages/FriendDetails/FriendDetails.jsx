@@ -33,7 +33,7 @@ const FriendDetails = () => {
   
 
   return (
-    <div className="w-full lg:w-[70%] mx-auto px-2 lg:px-0 flex flex-col lg:flex-row justify-between gap-6 py-20">
+    <div className="w-11/12 lg:w-[70%] mx-auto flex flex-col lg:flex-row justify-between gap-6 py-20">
       {/* left side */}
       <div className="w-full lg:w-[35%] h-full">
         <div className="bg-base-100 shadow-sm rounded-lg p-4 text-center space-y-3">
@@ -81,19 +81,19 @@ const FriendDetails = () => {
       {/* Right Side */}
       <div className="w-full lg:w-[65%] space-y-6 h-full">
         {/* first item */}
-        <div className="flex justify-between items-center">
-          <div className="bg-base-100 shadow-sm p-6 rounded-lg text-center">
-            <h2 className="font-semibold text-2xl lg:text-3xl text-[#244d3f]">
+        <div className="flex justify-between items-center gap-3">
+          <div className="bg-base-100 shadow-sm p-1 lg:p-6 rounded-lg text-center">
+            <h2 className="font-semibold text-xl lg:text-2xl lg:text-3xl text-[#244d3f]">
               {days_since_contact}
             </h2>
             <p className="text-sm text-[#64748B]">Days since contact</p>
           </div>
-          <div className="bg-base-100 shadow-sm p-6 rounded-lg text-center">
-            <h2 className="font-semibold text-2xl lg:text-3xl text-[#244d3f]">{goal}</h2>
+          <div className="bg-base-100 shadow-sm p-1 lg:p-6 rounded-lg text-center">
+            <h2 className="font-semibold text-xl lg:text-2xl lg:text-3xl text-[#244d3f]">{goal}</h2>
             <p className="text-sm text-[#64748B]">Goal (Days)</p>
           </div>
-          <div className="bg-base-100 shadow-sm p-6 rounded-lg text-center">
-            <h2 className="font-semibold text-2xl lg:text-3xl text-[#244d3f]">
+          <div className="bg-base-100 shadow-sm p-1 lg:p-6 rounded-lg text-center">
+            <h2 className="font-semibold text-xl lg:text-2xl lg:text-3xl text-[#244d3f]">
               {next_due_date}
             </h2>
             <p className="text-sm text-[#64748B]">Next Due</p>
@@ -116,15 +116,15 @@ const FriendDetails = () => {
           <h3 className="font-medium text-xl text-[#244d3f]">Quick Check In</h3>
 
           <div className="flex justify-between items-center mt-3">
-            <div onClick={() => handleTimeLine('call', name)} className="btn px-8 py-8 space-x-1">
+            <div onClick={() => handleTimeLine('call', name)} className="btn px-4 lg:px-8 py-4 lg:py-8 space-x-1">
               <LuPhoneCall />
               <h4>Call</h4>
             </div>
-            <div onClick={() => handleTimeLine('text', name)} className="btn px-8 py-8 space-x-1">
+            <div onClick={() => handleTimeLine('text', name)} className="btn px-4 lg:px-8 py-4 lg:py-8 space-x-1">
               <LuMessageSquareMore />
               <h4>Text</h4>
             </div>
-            <div onClick={() => handleTimeLine('video', name)} className="btn px-8 py-8 space-x-1">
+            <div onClick={() => handleTimeLine('video', name)} className="btn px-4 lg:px-8 py-4 lg:py-8 space-x-1">
               <MdOutlineVideocam />
               <h4>Video</h4>
             </div>

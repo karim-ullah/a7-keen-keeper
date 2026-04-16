@@ -8,6 +8,7 @@ const FriendCard = ({ friend }) => {
   };
 
   return (
+    
     <div
       onClick={() => handlecard(friend)}
       className="bg-base-100 shadow-sm rounded-lg p-6 text-center space-y-3"

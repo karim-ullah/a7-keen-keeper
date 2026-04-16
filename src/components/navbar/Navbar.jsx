@@ -7,30 +7,30 @@ import { NavLink } from "react-router";
 const Navbar = () => {
   return (
     <div className="bg-base-100/30 shadow-sm sticky top-0 backdrop-blur-md">
-      <div className="navbar container mx-auto px-2 lg:px-0">
-        <div className="flex-1">
+      <div className="w-11/12 flex justify-between items-center py-2 mx-auto">
+        <div>
           <a className="font-extrabold text-2xl text-[#1F2937]">
             Keen<span className="font-semibold text-[#244D3F]">Keeper</span>
           </a>
         </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1 font-medium text-[#64748B] space-x-3">
+        <div>
+          <ul className="menu menu-horizontal px-0 text-xl lg:text-sm font-medium text-[#64748B] space-x-2">
             <li>
               <NavLink to={"/"}>
                 <IoMdHome />
-                Home
+                <span className="hidden lg:block">Home</span>
               </NavLink>
             </li>
             <li>
               <NavLink to={"/timeline"}>
                 <RiTimeLine />
-                Timeline
+                <span className="hidden lg:block">Timeline</span>
               </NavLink>
             </li>
             <li>
               <NavLink to={"/stats"}>
                 <ImStatsDots />
-                Stats
+                <span className="hidden lg:block">Stats</span>
               </NavLink>
             </li>
           </ul>

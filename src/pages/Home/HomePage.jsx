@@ -6,15 +6,18 @@ import HomeStats from "./Home UI/HomeStats";
 const friendsPromise = fetch('Friends.json').then(res => res.json())
 const HomePage = () => {
   return (
-    <div className="bg-[#F8FAFC] h-screen">
-      <div className="container mx-auto px-2 lg:px-0 mx-auto py-20">
+    <div className="bg-[#F8FAFC]">
+
+      <div className="w-11/12 mx-auto py-20">
         <Heading></Heading>
         <HomeStats></HomeStats>
+
         <Suspense fallback ={<div className="text-center py-8">
           <span className="loading loading-spinner text-primary"></span>
         </div>}>
           <AllFriends friendsPromise = {friendsPromise}></AllFriends>
         </Suspense>
+
         
       </div>
     </div>
