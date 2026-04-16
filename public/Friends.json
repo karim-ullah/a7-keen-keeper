@@ -7,7 +7,7 @@
     "days_since_contact": 18,
     "status": "overdue",
     "tags": ["college", "close friend"],
-    "bio": "We studied Computer Science together. Used to build small projects and hang out at cafés.",
+    "bio": "We studied Computer Science together. Used to build small projects.",
     "goal": 14,
     "next_due_date": "2026-03-28"
   },
@@ -19,7 +19,7 @@
     "days_since_contact": 10,
     "status": "almost due",
     "tags": ["work", "design"],
-    "bio": "Worked together on multiple UI/UX projects. Great sense of design and creativity.",
+    "bio": "Worked together on multiple UI/UX projects.",
     "goal": 12,
     "next_due_date": "2026-04-17"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["gym", "fitness"],
-    "bio": "Gym partner for the last 2 years. Keeps me motivated and disciplined.",
+    "bio": "Gym partner for the last 2 years. Keeps me motivated.",
     "goal": 14,
     "next_due_date": "2026-04-24"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 22,
     "status": "overdue",
     "tags": ["school", "childhood"],
-    "bio": "Childhood friend from school days. We used to participate in cultural programs together.",
+    "bio": "Childhood friend from school days. We used to participate in programs.",
     "goal": 15,
     "next_due_date": "2026-03-30"
   },
@@ -55,7 +55,7 @@
     "days_since_contact": 13,
     "status": "almost due",
     "tags": ["freelance", "developer"],
-    "bio": "Met through freelancing. Often discuss web development trends and client work.",
+    "bio": "Met through freelancing. Often discuss about web development.",
     "goal": 14,
     "next_due_date": "2026-04-16"
   },
@@ -67,7 +67,7 @@
     "days_since_contact": 3,
     "status": "on-track",
     "tags": ["family friend"],
-    "bio": "Family friend. Our families often visit each other during holidays and events.",
+    "bio": "Family friend. Our families often visit each other during holidays.",
     "goal": 10,
     "next_due_date": "2026-04-22"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 16,
     "status": "overdue",
     "tags": ["travel", "adventure"],
-    "bio": "Travel buddy. We explored Cox’s Bazar and Bandarban together last year.",
+    "bio": "Travel buddy. We explored Cox’s Bazar last year.",
     "goal": 14,
     "next_due_date": "2026-04-01"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 7,
     "status": "on-track",
     "tags": ["book club", "reading"],
-    "bio": "Met at a local book club. We exchange books and discuss novels regularly.",
+    "bio": "Met at a local book club. We exchange books regularly.",
     "goal": 14,
     "next_due_date": "2026-04-21"
   }
