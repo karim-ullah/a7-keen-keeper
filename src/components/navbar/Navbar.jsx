@@ -7,6 +7,7 @@ import { NavLink } from "react-router";
 const Navbar = () => {
   return (
     <div className="bg-base-100/30 shadow-sm sticky top-0 backdrop-blur-md z-10">
+      
       <div className="w-11/12 flex justify-between items-center py-2 mx-auto">
         <div>
           <a className="font-extrabold text-2xl text-[#1F2937]">
